@@ -9,7 +9,7 @@ Ranking: workers furthest below their guaranteed minimum hours first
 """
 
 # Change this one line if you may not name the real customer
-STORE_NAME = "Salsa Shop NDSM"
+STORE_NAME = "Demo Store · Amsterdam"
 
 SHIFT = {
     "id": "sat-evening",
