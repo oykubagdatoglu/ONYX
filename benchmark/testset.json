@@ -1,0 +1,608 @@
+{
+ "shift": {
+  "start": "17:00",
+  "end": "22:00"
+ },
+ "items": [
+  {
+   "message": "Ja hoor, kan ik! 👍",
+   "lang": "NL",
+   "gold": {
+    "status": "yes",
+    "from": null,
+    "until": null
+   },
+   "id": 1
+  },
+  {
+   "message": "yes I can do it",
+   "lang": "EN",
+   "gold": {
+    "status": "yes",
+    "from": null,
+    "until": null
+   },
+   "id": 2
+  },
+  {
+   "message": "tamam gelirim",
+   "lang": "TR",
+   "gold": {
+    "status": "yes",
+    "from": null,
+    "until": null
+   },
+   "id": 3
+  },
+  {
+   "message": "Tak, mogę przyjść",
+   "lang": "PL",
+   "gold": {
+    "status": "yes",
+    "from": null,
+    "until": null
+   },
+   "id": 4
+  },
+  {
+   "message": "jaa is goed, ik kom",
+   "lang": "NL",
+   "gold": {
+    "status": "yes",
+    "from": null,
+    "until": null
+   },
+   "id": 5
+  },
+  {
+   "message": "sure thing, see u at 5",
+   "lang": "EN",
+   "gold": {
+    "status": "yes",
+    "from": null,
+    "until": null
+   },
+   "id": 6
+  },
+  {
+   "message": "olur abi geliyorum",
+   "lang": "TR",
+   "gold": {
+    "status": "yes",
+    "from": null,
+    "until": null
+   },
+   "id": 7
+  },
+  {
+   "message": "Sí, puedo ir",
+   "lang": "ES",
+   "gold": {
+    "status": "yes",
+    "from": null,
+    "until": null
+   },
+   "id": 8
+  },
+  {
+   "message": "yep 👍",
+   "lang": "EN",
+   "gold": {
+    "status": "yes",
+    "from": null,
+    "until": null
+   },
+   "id": 9
+  },
+  {
+   "message": "kan ik doen, geen probleem",
+   "lang": "NL",
+   "gold": {
+    "status": "yes",
+    "from": null,
+    "until": null
+   },
+   "id": 10
+  },
+  {
+   "message": "evet müsaitim tüm vardiya",
+   "lang": "TR",
+   "gold": {
+    "status": "yes",
+    "from": null,
+    "until": null
+   },
+   "id": 11
+  },
+  {
+   "message": "i can come, whole shift fine",
+   "lang": "EN",
+   "gold": {
+    "status": "yes",
+    "from": null,
+    "until": null
+   },
+   "id": 12
+  },
+  {
+   "message": "ja graag, heb geld nodig haha",
+   "lang": "NL",
+   "gold": {
+    "status": "yes",
+    "from": null,
+    "until": null
+   },
+   "id": 13
+  },
+  {
+   "message": "ok ok coming",
+   "lang": "EN",
+   "gold": {
+    "status": "yes",
+    "from": null,
+    "until": null
+   },
+   "id": 14
+  },
+  {
+   "message": "Jasne, mogę",
+   "lang": "PL",
+   "gold": {
+    "status": "yes",
+    "from": null,
+    "until": null
+   },
+   "id": 15
+  },
+  {
+   "message": "yes!! finally a shift lol",
+   "lang": "EN",
+   "gold": {
+    "status": "yes",
+    "from": null,
+    "until": null
+   },
+   "id": 16
+  },
+  {
+   "message": "gelirim tabi",
+   "lang": "TR",
+   "gold": {
+    "status": "yes",
+    "from": null,
+    "until": null
+   },
+   "id": 17
+  },
+  {
+   "message": "prima, ik ben er om 5",
+   "lang": "NL",
+   "gold": {
+    "status": "yes",
+    "from": null,
+    "until": null
+   },
+   "id": 18
+  },
+  {
+   "message": "Claro que sí",
+   "lang": "ES",
+   "gold": {
+    "status": "yes",
+    "from": null,
+    "until": null
+   },
+   "id": 19
+  },
+  {
+   "message": "ja kan wel, tot vanavond",
+   "lang": "NL",
+   "gold": {
+    "status": "yes",
+    "from": null,
+    "until": null
+   },
+   "id": 20
+  },
+  {
+   "message": "sorry kan niet vanavond",
+   "lang": "NL",
+   "gold": {
+    "status": "no",
+    "from": null,
+    "until": null
+   },
+   "id": 21
+  },
+  {
+   "message": "no sorry I have an exam tomorrow",
+   "lang": "EN",
+   "gold": {
+    "status": "no",
+    "from": null,
+    "until": null
+   },
+   "id": 22
+  },
+  {
+   "message": "gelemem bugün kusura bakma",
+   "lang": "TR",
+   "gold": {
+    "status": "no",
+    "from": null,
+    "until": null
+   },
+   "id": 23
+  },
+  {
+   "message": "Nie mogę, sorry",
+   "lang": "PL",
+   "gold": {
+    "status": "no",
+    "from": null,
+    "until": null
+   },
+   "id": 24
+  },
+  {
+   "message": "helaas, ben ziek",
+   "lang": "NL",
+   "gold": {
+    "status": "no",
+    "from": null,
+    "until": null
+   },
+   "id": 25
+  },
+  {
+   "message": "nope, out of town",
+   "lang": "EN",
+   "gold": {
+    "status": "no",
+    "from": null,
+    "until": null
+   },
+   "id": 26
+  },
+  {
+   "message": "bu akşam olmaz",
+   "lang": "TR",
+   "gold": {
+    "status": "no",
+    "from": null,
+    "until": null
+   },
+   "id": 27
+  },
+  {
+   "message": "No puedo hoy, lo siento",
+   "lang": "ES",
+   "gold": {
+    "status": "no",
+    "from": null,
+    "until": null
+   },
+   "id": 28
+  },
+  {
+   "message": "kan echt niet, familie etentje",
+   "lang": "NL",
+   "gold": {
+    "status": "no",
+    "from": null,
+    "until": null
+   },
+   "id": 29
+  },
+  {
+   "message": "sorry can't make it",
+   "lang": "EN",
+   "gold": {
+    "status": "no",
+    "from": null,
+    "until": null
+   },
+   "id": 30
+  },
+  {
+   "message": "maalesef işim var",
+   "lang": "TR",
+   "gold": {
+    "status": "no",
+    "from": null,
+    "until": null
+   },
+   "id": 31
+  },
+  {
+   "message": "nee",
+   "lang": "NL",
+   "gold": {
+    "status": "no",
+    "from": null,
+    "until": null
+   },
+   "id": 32
+  },
+  {
+   "message": "I wish but no",
+   "lang": "EN",
+   "gold": {
+    "status": "no",
+    "from": null,
+    "until": null
+   },
+   "id": 33
+  },
+  {
+   "message": "vandaag lukt niet 🙁",
+   "lang": "NL",
+   "gold": {
+    "status": "no",
+    "from": null,
+    "until": null
+   },
+   "id": 34
+  },
+  {
+   "message": "sorry i'm already working at my other job",
+   "lang": "EN",
+   "gold": {
+    "status": "no",
+    "from": null,
+    "until": null
+   },
+   "id": 35
+  },
+  {
+   "message": "Niestety nie dam rady",
+   "lang": "PL",
+   "gold": {
+    "status": "no",
+    "from": null,
+    "until": null
+   },
+   "id": 36
+  },
+  {
+   "message": "olmaz ya çok yorgunum",
+   "lang": "TR",
+   "gold": {
+    "status": "no",
+    "from": null,
+    "until": null
+   },
+   "id": 37
+  },
+  {
+   "message": "kan niet, volgende keer wel!",
+   "lang": "NL",
+   "gold": {
+    "status": "no",
+    "from": null,
+    "until": null
+   },
+   "id": 38
+  },
+  {
+   "message": "no, but ask me next week",
+   "lang": "EN",
+   "gold": {
+    "status": "no",
+    "from": null,
+    "until": null
+   },
+   "id": 39
+  },
+  {
+   "message": "hayır",
+   "lang": "TR",
+   "gold": {
+    "status": "no",
+    "from": null,
+    "until": null
+   },
+   "id": 40
+  },
+  {
+   "message": "ik kan pas vanaf 18:00",
+   "lang": "NL",
+   "gold": {
+    "status": "partial",
+    "from": "18:00",
+    "until": "22:00"
+   },
+   "id": 41
+  },
+  {
+   "message": "yes but I have to leave at 21",
+   "lang": "EN",
+   "gold": {
+    "status": "partial",
+    "from": "17:00",
+    "until": "21:00"
+   },
+   "id": 42
+  },
+  {
+   "message": "gelirim ama 20:00'de çıkmam lazım",
+   "lang": "TR",
+   "gold": {
+    "status": "partial",
+    "from": "17:00",
+    "until": "20:00"
+   },
+   "id": 43
+  },
+  {
+   "message": "kan vanaf half 7",
+   "lang": "NL",
+   "gold": {
+    "status": "partial",
+    "from": "18:30",
+    "until": "22:00"
+   },
+   "id": 44
+  },
+  {
+   "message": "can come from 6pm",
+   "lang": "EN",
+   "gold": {
+    "status": "partial",
+    "from": "18:00",
+    "until": "22:00"
+   },
+   "id": 45
+  },
+  {
+   "message": "Mogę od 19",
+   "lang": "PL",
+   "gold": {
+    "status": "partial",
+    "from": "19:00",
+    "until": "22:00"
+   },
+   "id": 46
+  },
+  {
+   "message": "ja maar tot 9 uur",
+   "lang": "NL",
+   "gold": {
+    "status": "partial",
+    "from": "17:00",
+    "until": "21:00"
+   },
+   "id": 47
+  },
+  {
+   "message": "only until 8 sorry",
+   "lang": "EN",
+   "gold": {
+    "status": "partial",
+    "from": "17:00",
+    "until": "20:00"
+   },
+   "id": 48
+  },
+  {
+   "message": "saat 6'dan sonra gelebilirim",
+   "lang": "TR",
+   "gold": {
+    "status": "partial",
+    "from": "18:00",
+    "until": "22:00"
+   },
+   "id": 49
+  },
+  {
+   "message": "Puedo desde las 7",
+   "lang": "ES",
+   "gold": {
+    "status": "partial",
+    "from": "19:00",
+    "until": "22:00"
+   },
+   "id": 50
+  },
+  {
+   "message": "kan om kwart over 5, iets later",
+   "lang": "NL",
+   "gold": {
+    "status": "partial",
+    "from": "17:15",
+    "until": "22:00"
+   },
+   "id": 51
+  },
+  {
+   "message": "I can do 5 to 9:30",
+   "lang": "EN",
+   "gold": {
+    "status": "partial",
+    "from": "17:00",
+    "until": "21:30"
+   },
+   "id": 52
+  },
+  {
+   "message": "18.30 ancak yetişirim",
+   "lang": "TR",
+   "gold": {
+    "status": "partial",
+    "from": "18:30",
+    "until": "22:00"
+   },
+   "id": 53
+  },
+  {
+   "message": "ja, maar moet om 20u weg",
+   "lang": "NL",
+   "gold": {
+    "status": "partial",
+    "from": "17:00",
+    "until": "20:00"
+   },
+   "id": 54
+  },
+  {
+   "message": "can start at 5:30 if thats ok",
+   "lang": "EN",
+   "gold": {
+    "status": "partial",
+    "from": "17:30",
+    "until": "22:00"
+   },
+   "id": 55
+  },
+  {
+   "message": "Mogę do 20:30",
+   "lang": "PL",
+   "gold": {
+    "status": "partial",
+    "from": "17:00",
+    "until": "20:30"
+   },
+   "id": 56
+  },
+  {
+   "message": "tot half 10 kan ik",
+   "lang": "NL",
+   "gold": {
+    "status": "partial",
+    "from": "17:00",
+    "until": "21:30"
+   },
+   "id": 57
+  },
+  {
+   "message": "ben er vanaf 19u",
+   "lang": "NL",
+   "gold": {
+    "status": "partial",
+    "from": "19:00",
+    "until": "22:00"
+   },
+   "id": 58
+  },
+  {
+   "message": "sadece 2 saat, 17-19 arası",
+   "lang": "TR",
+   "gold": {
+    "status": "partial",
+    "from": "17:00",
+    "until": "19:00"
+   },
+   "id": 59
+  },
+  {
+   "message": "yes but I'll be 30 min late",
+   "lang": "EN",
+   "gold": {
+    "status": "partial",
+    "from": "17:30",
+    "until": "22:00"
+   },
+   "id": 60
+  }
+ ]
+}

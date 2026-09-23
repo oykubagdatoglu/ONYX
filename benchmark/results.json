@@ -1,0 +1,206 @@
+{
+ "n": 60,
+ "summary": [
+  {
+   "setup": "Qwen3-30B-A3B (open, small)",
+   "accuracy": 0.9666666666666667,
+   "status_accuracy": 0.9666666666666667,
+   "median_latency_s": 0.9627091875299811,
+   "cost_per_1000": 0.042681666666666666,
+   "escalation_rate": null,
+   "api_errors": 0
+  },
+  {
+   "setup": "gpt-oss-120b (open, large)",
+   "accuracy": 1.0,
+   "status_accuracy": 1.0,
+   "median_latency_s": 0.5054858957882971,
+   "cost_per_1000": 0.133665,
+   "escalation_rate": null,
+   "api_errors": 0
+  },
+  {
+   "setup": "Cascade Qwen3-30B → gpt-oss-120b (Onyx)",
+   "accuracy": 0.95,
+   "status_accuracy": 0.9666666666666667,
+   "median_latency_s": 0.793431916506961,
+   "cost_per_1000": 0.042661666666666674,
+   "escalation_rate": 0.0,
+   "api_errors": 0
+  },
+  {
+   "setup": "claude-haiku-4-5-20251001 (closed baseline)",
+   "accuracy": 0.9833333333333333,
+   "status_accuracy": 0.9833333333333333,
+   "median_latency_s": 1.074218374909833,
+   "cost_per_1000": 0.6056833333333334,
+   "escalation_rate": null,
+   "api_errors": 0
+  },
+  {
+   "setup": "claude-sonnet-4-6 (closed baseline)",
+   "accuracy": 1.0,
+   "status_accuracy": 1.0,
+   "median_latency_s": 1.7840948125813156,
+   "cost_per_1000": 1.5752999999999995,
+   "escalation_rate": null,
+   "api_errors": 0
+  }
+ ],
+ "errors": {
+  "Qwen3-30B-A3B (open, small)": [
+   {
+    "id": 18,
+    "message": "prima, ik ben er om 5",
+    "gold": {
+     "status": "yes",
+     "from": null,
+     "until": null
+    },
+    "got": {
+     "status": "partial",
+     "from": "17:00",
+     "until": "22:00",
+     "confidence": 0.9,
+     "note": "Arrives at 5 PM"
+    }
+   },
+   {
+    "id": 20,
+    "message": "ja kan wel, tot vanavond",
+    "gold": {
+     "status": "yes",
+     "from": null,
+     "until": null
+    },
+    "got": {
+     "status": "partial",
+     "from": "17:00",
+     "until": "22:00",
+     "confidence": 0.9,
+     "note": "Available from start until evening"
+    }
+   }
+  ],
+  "gpt-oss-120b (open, large)": [],
+  "Cascade Qwen3-30B → gpt-oss-120b (Onyx)": [
+   {
+    "id": 18,
+    "message": "prima, ik ben er om 5",
+    "gold": {
+     "status": "yes",
+     "from": null,
+     "until": null
+    },
+    "got": {
+     "status": "partial",
+     "from": "17:00",
+     "until": "22:00",
+     "confidence": 0.95,
+     "note": "Arrives at 5 PM"
+    }
+   },
+   {
+    "id": 20,
+    "message": "ja kan wel, tot vanavond",
+    "gold": {
+     "status": "yes",
+     "from": null,
+     "until": null
+    },
+    "got": {
+     "status": "partial",
+     "from": "17:00",
+     "until": "22:00",
+     "confidence": 0.9,
+     "note": "Available from start until evening"
+    }
+   },
+   {
+    "id": 57,
+    "message": "tot half 10 kan ik",
+    "gold": {
+     "status": "partial",
+     "from": "17:00",
+     "until": "21:30"
+    },
+    "got": {
+     "status": "partial",
+     "from": "17:00",
+     "until": "22:00",
+     "confidence": 0.95,
+     "note": "Available until half 10"
+    }
+   }
+  ],
+  "claude-haiku-4-5-20251001 (closed baseline)": [
+   {
+    "id": 18,
+    "message": "prima, ik ben er om 5",
+    "gold": {
+     "status": "yes",
+     "from": null,
+     "until": null
+    },
+    "got": {
+     "status": "partial",
+     "from": "17:00",
+     "until": "22:00",
+     "confidence": 0.7,
+     "note": "Can arrive at 17:00 (5pm), full shift availability unclear"
+    }
+   }
+  ],
+  "claude-sonnet-4-6 (closed baseline)": []
+ },
+ "cascade_errors": [
+  {
+   "id": 18,
+   "message": "prima, ik ben er om 5",
+   "gold": {
+    "status": "yes",
+    "from": null,
+    "until": null
+   },
+   "got": {
+    "status": "partial",
+    "from": "17:00",
+    "until": "22:00",
+    "confidence": 0.95,
+    "note": "Arrives at 5 PM"
+   }
+  },
+  {
+   "id": 20,
+   "message": "ja kan wel, tot vanavond",
+   "gold": {
+    "status": "yes",
+    "from": null,
+    "until": null
+   },
+   "got": {
+    "status": "partial",
+    "from": "17:00",
+    "until": "22:00",
+    "confidence": 0.9,
+    "note": "Available from start until evening"
+   }
+  },
+  {
+   "id": 57,
+   "message": "tot half 10 kan ik",
+   "gold": {
+    "status": "partial",
+    "from": "17:00",
+    "until": "21:30"
+   },
+   "got": {
+    "status": "partial",
+    "from": "17:00",
+    "until": "22:00",
+    "confidence": 0.95,
+    "note": "Available until half 10"
+   }
+  }
+ ]
+}
